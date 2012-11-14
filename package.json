@@ -1,0 +1,22 @@
+{
+  "name": "step-error",
+  "version": "0.1.0",
+  "description": "Just like Creationix's flow control library (step), except with global error handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bminer/step-error.git"
+  },
+  "keywords": [
+    "flow",
+    "control",
+    "step",
+    "error"
+  ],
+  "author": "Blake Miner <miner.blake@gmail.com> (http://www.blakeminer.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

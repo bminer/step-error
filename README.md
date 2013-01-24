@@ -10,6 +10,8 @@ errors, add optional `catch()` or `finally()` functions.
 
 You may add more than one `catch()` function, but only one `finally()` function.
 
+This error handling technique was inspired by [node-block](https://github.com/tasogarepg/node-block).
+
 ## Install
 
 Just install step-error.  Step is installed as a dependency.

@@ -6,11 +6,14 @@ Just like [Creationix's flow control library (step)](https://github.com/creation
 ## About
 
 Use Step as you normally would, except callbacks don't get an `err` Object.  To handle
-errors, add optional `catch()` or `finally()` functions.
+errors, add optional `error()` or `finally()` functions.
 
-You may add more than one `catch()` function, but only one `finally()` function.
+You may add more than one `error()` function, but only one `finally()` function.
 
 This error handling technique was inspired by [node-block](https://github.com/tasogarepg/node-block).
+
+The caveat is that all functions need to expect the first argument to be the Error Object, or `null` if there
+is no error.
 
 ## Install
 
@@ -65,7 +68,7 @@ StepError(
   function showAll(files) {
     console.dir(files);
   },
-  function catch(err) {
+  function error(err) {
     console.dir(err);
   }
 );

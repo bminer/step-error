@@ -1,6 +1,6 @@
 {
   "name": "step-error",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Just like Creationix's flow control library (step), except with global error handling",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git://github.com/bminer/step-error.git"
   },
+  "dependencies": {
+    "step": "*"
+  }
   "keywords": [
     "flow",
     "control",

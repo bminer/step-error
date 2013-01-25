@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "step": "*"
-  }
+  },
   "keywords": [
     "flow",
     "control",

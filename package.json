@@ -1,6 +1,6 @@
 {
   "name": "step-error",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Just like Creationix's flow control library (step), except with global error handling",
   "main": "index.js",
   "scripts": {

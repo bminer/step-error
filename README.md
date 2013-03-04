@@ -9,6 +9,8 @@ Use Step as you normally would, except callbacks don't get an `err` Object.  To 
 errors, add optional `_catch()` or `_finally()` functions.
 
 You may add more than one `_catch()` function, but only one `_finally()` function.
+In addition, you may provide a `_catchAll()` function, which will be called for each error,
+not just for the first one.
 
 This error handling technique was inspired by [node-block](https://github.com/tasogarepg/node-block).
 
@@ -67,6 +69,7 @@ StepError(
   },
   function showAll(files) {
     console.dir(files);
+    this(); //Should be a `this()` call in the final function, as well
   },
   function _catch(err) {
     console.dir(err);

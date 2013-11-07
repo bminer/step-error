@@ -19,7 +19,7 @@ Object, or `null` if there is no error.
 
 ## Install
 
-Just install step-error.  Step is installed as a peer dependency.
+Just install step-error.  Step is installed as a dependency.
 
 `npm install step-error`
 
@@ -77,8 +77,7 @@ Step(
 write this...
 
 ```js
-var Step = require("step");
-var StepError = require("step-error")(Step);
+var StepError = require("step-error");
 StepError(
   function readDir() {
     fs.readdir(__dirname, this);

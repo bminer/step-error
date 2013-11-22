@@ -1,6 +1,6 @@
 {
   "name": "step-error",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Plugin for Creationix's flow control library (step) for global error handling",
   "main": "index.js",
   "scripts": {

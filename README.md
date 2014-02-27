@@ -3,6 +3,10 @@ step-error
 
 Plugin for [Creationix's flow control library (step)](https://github.com/creationix/step) for global error handling.
 
+# Deprecated
+
+### This project has been discontinued.  Please consider using the [Stride](https://github.com/bminer/stride) flow control library instead: https://github.com/bminer/stride
+
 ## About
 
 Use Step as you normally would, except callbacks don't get an `err` Object.  To
